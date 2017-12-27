@@ -1,9 +1,9 @@
 # wdi-group-project
 
-#*WHAT'S YOUR BEEF*
+# *WHAT'S YOUR BEEF*
 
 
-##Intro
+## Intro
 
 *WHAT'S YOUR BEEF* is an app directed at both vegans and non-vegans who can share their own vegan recipe versions of various cuisines.
 
@@ -12,9 +12,9 @@ The recipe show page has various information on ingredients used, instructions a
 
 --
 
-##How it was made
+## How it was made
 
-###The team - LDDS
+### The team
 
 *Louis*
 *Dave*
@@ -23,12 +23,12 @@ The recipe show page has various information on ingredients used, instructions a
 
 A diverse bunch with individual strengths and weeknesses who have achieved to combine and build a MEAN machin..eeeerrr.. application from scratch.
 
-###The app
+### The app
 
 Built on AngularJS
 
 
-###Testing first (TDD with LDD)
+### Testing first (TDD with LDD)
 
 We wrote about 22 tests before writing any code, checking basic things like response statuses, headers and keys in JSON responses.
 
@@ -56,7 +56,7 @@ Made sure the test passed and then merged it to the development branch by using 
 
 --
 
-###API and additional Testing
+### API and additional Testing
 
 Afer basic testing was completed we found it was a good idea to split up in two groups. Dave and Danai started pair programming on the API's initital build and Louis began planning out the rest of the tests.
 
@@ -66,14 +66,14 @@ By the end of Saturday we managed to sign off quite a few of our Trello tabs to 
 
 --
 
-###Error Handler
+### Error Handler
 
 On Sunday we created an error handler and custom responses which provided a 100% test coverage on our controllers.
 
 
 --
 
-###Authentication
+### Authentication
 
 Started off with back-end authentication by creating the user model and preparing the index.js using jsonwebtoken. After that we created the user controller and we tested our registration and login on Insomnia. Once everything was successful we re-run our tests but due to not being allowed having access anymore to the user authentication 30 or so of our tests broke.
 
@@ -83,7 +83,7 @@ We then proceeded to front-end angular authentication and making the back-end av
 
 --
 
-###Front-End
+### Front-End
 
 Using Balsamiq we began a basic layout for the website going mobile-first.
 
@@ -91,13 +91,13 @@ We then proceeded with Front-End authentication
 
 --
 
-###Styling
+### Styling
 
 We decided to use Bootstrap as our CSS Framework because of its amazing mobile-first functionality. Skeleton was a close second but we decided that we did not have enough time to develop a fully functional responsive navigation bar.
 
 --
 
-#Challenges
+# Challenges
 
 ***GitHub -*** Overcoming merge conflicts and synchonizing our pull and push requests proved to be a little bit challenging but thanks to Louis' patience and problem solving abilities we managed to get through this obstacle and merge our branches smoothly for the rest of the project.
 
@@ -106,14 +106,14 @@ We found a way around this problem by tricking the test file to log in by storin
 
 ***Front-End Authentication -***
 
-#Quotes
+# Quotes
 
-Louis - When I pseudocode, I code.
+Louis - When I write pseudocode, I write code.
 
 Sunny - (out of the blue) Opera singers can go very f*cking loud!!
 
 
-#Future plans
+# Future plans
 --
 
 ***Index of users / chefs***
