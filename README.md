@@ -2,6 +2,7 @@
 
 # *WHAT'S YOUR BEEF*
 
+[Check it out on Heroku](https://veganchef-lboyle.herokuapp.com/)
 
 ## Intro
 
